@@ -11,7 +11,7 @@ int main() {
         if(num%i == 0){
             ans = num/i;
             printf("%llu [%llu]\n", i, ans);
-            //if you want to limit the number added in sum
+            //if you want to limit the number added in sum just delete the comment out below
             //if(ans < 30000000){
             sums += ans;
             //}

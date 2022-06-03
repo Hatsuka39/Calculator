@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    unsigned long long int num, i, ans=0, sums=0;
+    //Divisor
+    printf("Enter the number(Decimal Only): ");
+    scanf("%llu", &num);
+    for(i=1;i<=num;i++){
+        if(num%i == 0){
+            ans = num/i;
+            printf("%llu [%llu]\n", i, ans);
+            //if you want to limit the number added in sum
+            //if(ans < 30000000){
+            sums += ans;
+            //}
+        }
+    }
+    printf("%llu\n", sums);
+
+    //Factorial
+    
+
+    return 0;
+}

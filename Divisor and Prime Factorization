@@ -19,7 +19,7 @@ int main() {
     }
     printf("%llu\n", sums);
 
-    //Factorial
+    //Prime Factorization
     
 
     return 0;

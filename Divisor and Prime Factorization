@@ -20,7 +20,14 @@ int main() {
     printf("%llu\n", sums);
 
     //Prime Factorization
-    
+    printf("【Prime Factorization Calculation】\n");
+    printf("   %llu\n", num);
+    for(i = 2;i <= num; i++){
+        while(num % i == 0){
+            num /= i;
+            printf("[%llu] ^ %llu\n", i, num);
+        }
+    }
 
     return 0;
 }
